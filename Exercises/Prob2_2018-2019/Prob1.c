@@ -1,6 +1,10 @@
-/* Exercise 1 - Print all divisors of a scanned integer and then print the average of the divisors
-Solution by : Joao Rodrigues (Joao-Ex-Machina)
-March 2021 */
+/*-------------------------------------------------------------------------------------------------+
+| Exercise 1 | Print all divisors of a scanned integer and then print the average of the divisors  |
+|           | with three decimal places                                                            |
++--------------------------------------------------------------------------------------------------+
+| Author: Joao Barreiros C. Rodrigues (Joao-Ex-Machina)                                            |
+| Date: 05 March 2021                                                                              |
++-------------------------------------------------------------------------------------------------*/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -14,7 +18,7 @@ int main(){
 
     printf ("Insert number:");
    scanf("%d", &n);
-  for ( a = 1; a <= n; a = ++ a ){
+  for ( a = 1; a <= n;  ++ a ){
       flag = n%a;
       if (flag == 0){
           printf ("\n %d is a divisor", a);
