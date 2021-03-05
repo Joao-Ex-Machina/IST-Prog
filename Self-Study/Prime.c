@@ -9,7 +9,7 @@ int main(){
     flagprime = 1;
     printf ("Insert number for prime test:");
    scanf("%d", &n);
-  for ( a = 2; a < n; a = ++ a ){
+  for ( a = 2; a < n;  ++ a ){
       flag = n % a;
   if (flag == 0) {
       flagprime = 0;
