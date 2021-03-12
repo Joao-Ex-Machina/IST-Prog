@@ -14,9 +14,12 @@ float out_secs;
 
 
 int main(){
-    printf("\n Insert a integer number of seconds\n");
+    input_secs = -1;
+    while (input_secs < 0){
+    printf("\n Insert a  positive integer number of seconds\n");
     getch();
     scanf("\n%d", &input_secs);
+    }
     out_hours = input_secs / 3600;
     out_minutes = (input_secs - ((out_hours)*3600)) / 60;
     out_secs = ((input_secs - ((out_hours)*3600) - ((out_minutes)*60)));
