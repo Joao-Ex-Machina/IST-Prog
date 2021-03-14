@@ -1,5 +1,5 @@
 /*-------------------------------------------------------------------------------------------------+
-| Exercise 1| Print the hour, minutes and seconds equivalent to a scanned integer number of seconds|
+| Exercise 2| Print the hour, minutes and seconds equivalent to a scanned integer number of seconds|
 |           |                                                                                      |
 +--------------------------------------------------------------------------------------------------+
 | Author: Joao Barreiros C. Rodrigues (Joao-Ex-Machina)                                            |
